@@ -1,0 +1,68 @@
+.Day {
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 160px;
+    height: 168px;
+    margin-right: 48px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.Day_TopInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Day_title {
+    font-size: 22px; 
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 19px;
+}
+
+.Day_dayName {
+    display: flex;
+    font-size: 20px; 
+    padding-left: 25px;
+    opacity: 0.5;
+}
+
+.Day:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+}
+
+.Day_temp {
+    display: flex;
+    flex-direction: row;
+}
+
+.DayC_temp {
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Night_temp {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.5;
+    padding-left: 16px;
+}
+
+.Day img {
+    width: 42px;
+    height: 42px;
+    padding-bottom: 15px;
+}

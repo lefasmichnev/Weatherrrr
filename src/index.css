@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Times New Roman", sans-serif; 
+  overflow: hidden;
+}
+
+#root {
+  height: inherit;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+    monospace;
+}
+
+* {
+  color: white; 
+}

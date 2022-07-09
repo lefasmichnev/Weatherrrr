@@ -1,0 +1,14 @@
+.App {
+  background-image: url(/src/images/back.jpg);
+  display: flex;
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+body {
+  overflow: hidden;
+}
